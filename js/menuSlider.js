@@ -1,11 +1,7 @@
-document.ready( function() {
+$( '#menu-container' ).hide();
 	
-	$( '#menu-container' ).hide();
-	
-	$( '#bottoneLogo' ).click( function() {
+$( '#bottoneLogo' ).click( function() {
 		
-			$( '#menu-container' ).slideToggle();
+	$( '#menu-container' ).slideToggle();
 		
-	});	
-	
 });
