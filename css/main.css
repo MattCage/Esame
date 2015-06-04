@@ -4,9 +4,33 @@
  
 /*** LAYOUT ***/
 /* Header */
-#menu-container {
+#menu-wrapper {
 	
-	background-image: url( '../img/sfondo-menu.png' );
+	padding: 0;	
+	
+}
+
+.sfondo-menu {
+	
+	background-image: url( '../img/sfondo-menu.png' );	
+	
+}
+
+#menu-container {
 		
+	
+}
+
+/* Utility */
+.nopadding {
+	
+	padding: 0 !important;
+	
+}
+
+/*** TESTI ***/
+h1, h2, h3, h4, h5, h6 {
+	
+	font-family: 'Overlock', cursive;
 	
 }
