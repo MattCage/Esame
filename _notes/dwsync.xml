@@ -10,9 +10,20 @@
 <file name=".gitignore" server="C:/xampp/htdocs/siti/esame/" local="130778004636069432" remote="130778004630000000" Dst="2" />
 <file name="404.html" server="C:/xampp/htdocs/siti/esame/" local="130416804780000000" remote="130416804780000000" Dst="2" />
 <file name="apple-touch-icon-precomposed.png" server="C:/xampp/htdocs/siti/esame/" local="130416804780000000" remote="130416804780000000" Dst="2" />
-<file name="DIMENSIONI GRAFICA.txt" server="C:/xampp/htdocs/siti/esame/" local="130728900738370988" remote="130728900730000000" Dst="2" />
 <file name="humans.txt" server="C:/xampp/htdocs/siti/esame/" local="130416804780000000" remote="130416804780000000" Dst="2" />
-<file name="programmazione.zip" server="C:/xampp/htdocs/siti/esame/" local="130728900914448735" remote="130728900910000000" Dst="2" />
 <file name="style.css" server="C:/xampp/htdocs/siti/esame/" local="130393704706890815" remote="130393704700000000" Dst="2" />
 <file name="load_page.php" server="C:/xampp/htdocs/siti/esame/" local="130791947841699733" remote="130791947840000000" Dst="2" />
+<file name=".gitattributes" server="C:/xampp/htdocs/siti/sakura/" local="130634386487196491" remote="130634386480000000" Dst="2" />
+<file name=".gitignore" server="C:/xampp/htdocs/siti/sakura/" local="130778004636069432" remote="130778004630000000" Dst="2" />
+<file name="404.html" server="C:/xampp/htdocs/siti/sakura/" local="130416804780000000" remote="130416804780000000" Dst="2" />
+<file name="apple-touch-icon-precomposed.png" server="C:/xampp/htdocs/siti/sakura/" local="130416804780000000" remote="130416804780000000" Dst="2" />
+<file name="apple-touch-icon.png" server="C:/xampp/htdocs/siti/sakura/" local="130777929420000000" remote="130777929420000000" Dst="2" />
+<file name="browserconfig.xml" server="C:/xampp/htdocs/siti/sakura/" local="130777929420000000" remote="130777929420000000" Dst="2" />
+<file name="favicon.ico" server="C:/xampp/htdocs/siti/sakura/" local="130777929420000000" remote="130777929420000000" Dst="2" />
+<file name="humans.txt" server="C:/xampp/htdocs/siti/sakura/" local="130416804780000000" remote="130416804780000000" Dst="2" />
+<file name="index.html" server="C:/xampp/htdocs/siti/sakura/" local="130816184053045655" remote="130816184050000000" Dst="2" />
+<file name="load_page.php" server="C:/xampp/htdocs/siti/sakura/" local="130791947841699733" remote="130791947840000000" Dst="2" />
+<file name="style.css" server="C:/xampp/htdocs/siti/sakura/" local="130393704706890815" remote="130393704700000000" Dst="2" />
+<file name="tile-wide.png" server="C:/xampp/htdocs/siti/sakura/" local="130777929420000000" remote="130777929420000000" Dst="2" />
+<file name="tile.png" server="C:/xampp/htdocs/siti/sakura/" local="130777929420000000" remote="130777929420000000" Dst="2" />
 </dwsync>
