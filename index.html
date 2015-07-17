@@ -13,6 +13,7 @@
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Overlock:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -22,38 +23,35 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     	
-     <header>
-<div class="container-fluid">
+        <header id="head-sito">
+        
+        	<div class="container-fluid">
             
-                <div class="row">
+            	<div class="row">
                 
-                    <div class="col-xs-3">
+                	<div class="col-xs-12 col-sm-12 col-md-3 col-lg-2">
         
-                        <a id="bottoneLogo" href="#"><img id="logo" src="../img/logo.png" class="img-responsive"></a>
-                        
-                    </div>
-                    
-                    <div class="col-xs-9">
-        
+                        <a id="bottoneLogo" href="#"><img id="logo" src="img/logo.png"></a>
                         <h1>Sakura</h1>
                         
                     </div>
-                
-                </div>
-                
-                <div class="row sfondo-menu">
-                
-                    <div class="col-xs-12 col-sm-12 col-md-11">
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-9 col-lg-10 sfondo-menu">
+
                         <nav id="menu-container">
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Link</a></li>
+                                <li><a href="">Home</a></li>
+                                <li><a href="#">Sale</a>
+                                	<ul>
+                                		<li><a href="#page_salaclassica">Sala Classica</a></li>
+                                    </ul>
+                               	</li>
                                 <li><a href="#">Link</a></li>
                                 <li><a href="#">Link</a></li>
                             </ul>
                         </nav>
                 
-                    </div>
+                	</div>
                 
                 </div>
             
@@ -61,20 +59,26 @@
         
         </header>
         
-        <section>
-            <div class="container">
+        <div>
+            <div id="main-body" class="container">
                 <div class="row">
-                    <div class="col-xs-12 news1"></div>
-                    <div class="col-xs-12 news2"></div>
-                    <div class="col-xs-12 news3"></div>
-                    <div class="col-xs-12 news4"></div>
+                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6 news1">
+                    	<h2><a href="#">News 1</a></h2>
+                    </article>
+                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6 news2">
+                    	<h2><a href="#">News 1</a></h2>
+                    </article>
+                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6 news3">
+                    	<h2><a href="#">News 1</a></h2>
+                    </article>
+                    <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6 news4">
+                    	<h2><a href="#">News 1</a></h2>
+                    </article>
                 </div>
-                        
-
 
             </div>
         
-        </section>
+        </div>
         
         <footer>
         
@@ -85,5 +89,7 @@
 
         <script src="js/vendor/bootstrap.min.js"></script>
 		<script src="js/main.js"></script>
+        
+    	<script src="js/menuSlider.js"></script>
     </body>
 </html>

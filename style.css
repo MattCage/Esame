@@ -1,0 +1,180 @@
+@charset "utf-8";
+
+/*
+* Nome Layout
+*
+* Specifiche:
+* Fonts: 
+* Colori: 
+*/
+
+/**** LAYOUT ****/
+body {
+
+}
+
+header, main, footer {
+	
+}
+
+/* Header */
+header {
+	
+}
+
+/* Main */
+main {
+
+}
+
+/* Footer */
+footer {
+
+}
+
+/**** TYPOGRAPHY ****/
+h1, h2, h3, h4, h5, h6 {
+	
+}
+
+h1 {
+	
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+address {
+	
+}
+
+figure {
+	
+}
+
+time {
+	
+}
+
+strong, b {
+	font-weight: 700;
+}
+
+em, i {
+	font-style: italic;
+}
+
+cite, q {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 0 0 20px;
+	padding: 0;
+	border-left: 5px solid #16a085;
+}
+
+mark {
+	
+}
+
+ins, u {
+	text-decoration: underline;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+code {
+	
+}
+
+small {
+	font-size: 0.6em;
+}
+
+/* LISTS */
+ul {
+
+}
+
+ul li {
+
+}
+
+/* LINKS */
+a:link, a:visited {
+
+}
+
+a:active {
+
+}
+
+a:hover {
+
+}
+
+/* INPUTS & FORMS */
+
+label {
+
+}
+
+input, textarea {
+}
+
+input {
+
+}
+
+textarea {
+}
+
+input:focus, textarea:focus {
+
+}
+
+input[type="submit"] {
+
+}
+
+input[type="submit"]:hover {
+
+}
+
+input[type="submit"]:active {
+
+}
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 960px) {	
+	
+}
+
+@media only screen and (min-width: 960px) {
+	
+}
+

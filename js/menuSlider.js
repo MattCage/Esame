@@ -1,7 +1,7 @@
-$( '#menu-container' ).hide();
+if( $( window ).width() < 992 ) $( '#menu-container' ).hide();
 	
 $( '#bottoneLogo' ).click( function() {
-		
-	$( '#menu-container' ).slideToggle();
+	
+	if( $( window ).width() < 992 ) $( '#menu-container' ).slideToggle();
 		
 });
