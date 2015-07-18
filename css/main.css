@@ -370,7 +370,7 @@ img#ciliegio {
 		
 		display: none;
 		position: absolute;
-		top: 5px;
+		top: 45px;
 		left: 0;
 		padding: 0;
 		
@@ -379,6 +379,13 @@ img#ciliegio {
 	#menu-container ul li:hover > ul {
 		
 		display: block;
+		
+	}
+	
+	#menu-container ul ul li a {
+		
+		line-height: 0;
+		padding-left: 40px;
 		
 	}
 	
