@@ -48,6 +48,12 @@ header#head-sito {
 	
 }
 
+.sfondo-logo {
+	
+	
+	
+}
+
 #menu-container {
 
 	position: relative;
@@ -111,7 +117,11 @@ article div.sfondo-articolo {
 /* Footer */
 footer {
 	
-	margin-bootom: 20px;	
+	margin-top: 20px;
+	padding-top: 10px;
+	background-color: white;
+	position: relative;
+	z-index: 999;	
 	
 }
 
@@ -213,6 +223,13 @@ h1, h2, h3, h4, h5, h6 {
 	
 }
 
+h1.logo {
+	
+	font-size: 44px;
+	line-height: 40px;
+	
+}
+
 h1.title {
 
 	margin: 80px 0 60px 0;
@@ -278,6 +295,12 @@ img#ciliegio {
 		margin-top: 20px;
 		
 	}
+
+	.sfondo-logo {
+		
+		background-image: url( '../img/sfondo-logo.png' );
+		
+	}
 	
 	#menu-container ul {
 		
@@ -295,6 +318,7 @@ img#ciliegio {
 	
 	#menu-container ul ul {
 		
+		background-color: white;
 		display: none;
 		position: absolute;
 		top: 45px;
@@ -343,12 +367,24 @@ img#ciliegio {
 		
 	}
 	
+	h1.logo {
+		
+		text-shadow: 2px 2px 0 #FFFFFF;
+		
+	}
+	
 }
 @media (min-width: 1200px) {
 	
 	.sfondo-menu {
 		
 		margin-top: 20px;
+		
+	}
+	
+	.sfondo-logo {
+		
+		background-image: url( '../img/sfondo-logo.png' );
 		
 	}
 	
@@ -368,6 +404,7 @@ img#ciliegio {
 	
 	#menu-container ul ul {
 		
+		background-color: white;
 		display: none;
 		position: absolute;
 		top: 45px;
@@ -413,6 +450,12 @@ img#ciliegio {
 		margin: 0 0 20px 20px;
 		position: relative;
 		float: right;
+		
+	}
+	
+	h1.logo {
+		
+		text-shadow: 2px 2px 0 #FFFFFF;
 		
 	}
 	
