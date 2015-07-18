@@ -136,7 +136,7 @@ footer {
 .fiore {
 
 	width: 3%;
-	position: absolute;
+	position: fixed;
 	display: none;
 	top: 20%;
 	left: 30%;	
@@ -154,6 +154,27 @@ footer {
 }
 
 .align-right {
+	
+}
+
+.googlemaps {
+	
+	width: 50%;
+	position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+	float: right;
+	
+}
+
+.googlemaps iframe {
+	
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 	
 }
 
@@ -260,7 +281,7 @@ div#ciliegio {
 @media (max-width: 767px) { ... }
 @media (min-width: 768px) and (max-width: 991px) {
 	
-	#ciliegio {
+	div#ciliegio {
 		
 		max-width: 100%;
 		height: auto;
@@ -341,7 +362,7 @@ div#ciliegio {
 		
 	}
 	
-	#ciliegio {
+	div#ciliegio {
 		
 		max-width: 100%;
 		height: auto;
@@ -428,7 +449,7 @@ div#ciliegio {
 		
 	}
 	
-	#ciliegio {
+	div#ciliegio {
 		
 		max-width: 100%;
 		height: auto;
