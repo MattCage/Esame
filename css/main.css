@@ -161,10 +161,12 @@ footer {
 	
 	width: 50%;
 	position: relative;
-    padding-bottom: 75%;
+    padding-bottom: 50%;
     height: 0;
     overflow: hidden;
 	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
 	
 }
 
