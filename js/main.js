@@ -1,3 +1,5 @@
+// Inizializzazione dell'animazione delle foglie
+
 $(window).load(function () {
 	$('body').sakura({
 		blowAnimations: ['blow-medium-right', 'blow-hard-right'], // Horizontal movement animation names
