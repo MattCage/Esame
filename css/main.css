@@ -88,8 +88,8 @@ header#head-sito {
 
 .notizia-content{
 	
-	padding-left: 10px;
-	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-bottom: 20px;
     position:  absolute;
     top: 0;
     left: 0;
@@ -247,15 +247,6 @@ article div.sfondo-articolo {
 
 }
 
-.sala-content div a {
-
-    display: table-cell;
-    vertical-align: bottom;
-    color: white;
-	text-shadow: 2px 2px 0 #000000;
-
-}
-
 /* Footer */
 footer {
 	
@@ -312,6 +303,17 @@ footer {
 }
 
 /*** LINK ***/
+a, a:visited {
+  color: rgba(185,0,121,1.00);
+  text-decoration: none;
+}
+
+a:hover {
+	
+	color: rgba(132,64,11,1.00);	
+	
+}
+
 #menu-container ul li a, #menu-container ul li a:visited, #menu-container ul ul li a, #menu-container ul ul li a:visited {
 	
 	margin-top: -25px;
@@ -334,12 +336,21 @@ footer {
 	
 }
 
-article.news1 h2 a, article.news2 h2 a, article.news3 h2 a, article.news4 h2 a {
+article.news1 a, article.news2 a, article.news3 a, article.news4 a, article.news1 a:visited, article.news2 a:visited, article.news3 a:visited, article.news4 a:visited {
 	
 	text-align: center;
 	color: white;
 	text-shadow: 2px 2px 0 #000000;
 	
+}
+
+.notizia-content div a, .sala-content div a, .notizia-content div a:visited, .sala-content div a:visited {
+
+    display: table-cell;
+    vertical-align: bottom;
+    color: white;
+	text-shadow: 2px 2px 0 #000000;
+
 }
 
 /*** LISTE ***/
