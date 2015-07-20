@@ -6,23 +6,35 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+        <title>Sakura - Il Karaoke</title>
+        <meta name="description" content="Che cos'è il Karaoke?">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
+        
+        <!-- Open Graph per syndacation con Facebook e SEO -->
+        <meta property="og:title" content="Sakura - Il Karaoke" />
+        <meta property="og:description" content="Che cos'è il Karaoke?" />
+        <meta property="og:locale" content="it_IT" />
+        <meta property="og:site_name" content="Sakura.it" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.sakura.it" />
+        <meta property="og:image" content="http://www.sakura.it/img/sakura.jpg" />
+        
+        <!-- Stili CSS Bootstrap & Web Fonts -->
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
         <link href='http://fonts.googleapis.com/css?family=Overlock:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="../css/main.css">
-
+        
+        <!--- Modernizr, migliora la compatibilità con IE precedenti al 7, meglio richiamarlo prima del body -->
         <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
-    <body style="background-image: url( '../img/sfondo_stanza_jazz.jpg' );">
+    <body style="background-image: url( '../img/sfondo_stanza_karaoke.jpg' );">
         <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <p class="browserupgrade">Stai usando un <strong>vecchio</strong> browser. Per favore <a href="http://browsehappy.com/">aggiorna il tuo browser</a> per migliorare la tua esperienza.</p>
         <![endif]-->
     	
+        <!-- Header del sito -->
 		<header id="head-sito">
         
         	<div class="container-fluid">
@@ -62,6 +74,7 @@
         
         </header>
         
+        <!-- Corpo principale della pagina -->
         <div>        
             <div id="content" class="container">
                 <div class="row">
@@ -72,7 +85,7 @@
                         <div class="sfondo-articolo">
                         <p class="lead"><em>Cosa rispondono molte persone alla domanda che cos’è la musica? Ci si spenderebbe un secolo e molte pagine solo per spiegare o meglio per dare una risposta a questa domanda. Molti risponderebbero a livello tecnico mentre altri a livello sensoriale ed emotivo.</em></p>
                         
-                        <img src="../img/home_01.jpg" class="img-responsive align-right">
+                        <img src="../img/home_00.jpg" class="img-responsive align-right">
                         <p>Resta il fatto che rispondere in modo corretto, non è possibile perché ogni riposta è di per se corretta. Infatti , questa definizione tiene conto del fatto che ciò che è considerato musica varia da cultura a cultura, e da epoca ad epoca.
 Mozart, per esempio, usava dire che “la musica non dimentica mai sé stessa, essa non deve mai cessare di essere musica”.
 Analizzando l’evoluzione della musica nel corso della storia, si nota infatti come la progressiva conquista di nuove sonorità e l’abbattimento di determinati schemi, seguano un filo evolutivo proprio, modificando progressivamente i gusti e le abitudini all’ascolto.<br>
@@ -99,12 +112,14 @@ Proprio come in quelle note sale, in Giappone!
             
         </div>
         
+        <!-- Assets per animazione di ciliegio e fiori -->
         <div id="ciliegio">
         	<img src="../img/ciliegio.png" class="img-responsive">
         </div>
         
         <img class="fiore" src="../img/fiore.png">
         
+        <!-- Piè di pagina -->
         <footer>
         
         	<div class="container-fluid">
@@ -129,6 +144,7 @@ Proprio come in quelle note sale, in Giappone!
         
         </footer>
         
+        <!-- jQuery, plugin Bootstrap e plugin realizzati da noi -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 

@@ -6,23 +6,35 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+        <title>Sakura - Karaoke bar</title>
+        <meta name="description" content="Sito ufficiale del karaoke Sakura">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
+        
+        <!-- Open Graph per syndacation con Facebook e SEO -->
+        <meta property="og:title" content="Sakura - Karaoke bar" />
+        <meta property="og:description" content="Sito ufficiale del karaoke Sakura" />
+        <meta property="og:locale" content="it_IT" />
+        <meta property="og:site_name" content="Sakura.it" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.sakura.it" />
+        <meta property="og:image" content="http://www.sakura.it/img/sakura.jpg" />
+        
+        <!-- Stili CSS Bootstrap & Web Fonts -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link href='http://fonts.googleapis.com/css?family=Overlock:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
-
+        
+        <!--- Modernizr, migliora la compatibilità con IE precedenti al 7, meglio richiamarlo prima del body -->
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
         <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <p class="browserupgrade">Stai usando un <strong>vecchio</strong> browser. Per favore <a href="http://browsehappy.com/">aggiorna il tuo browser</a> per migliorare la tua esperienza.</p>
         <![endif]-->
     	
+        <!-- Header del sito -->
         <header id="head-sito">
         
         	<div class="container-fluid">
@@ -60,10 +72,13 @@
             
             </div>
         
-        </header>
+        </header><!-- #head-sito -->
         
+        <!-- Corpo principale della pagina -->
         <div>
             <div id="main-body" class="container">
+            
+            	<!-- Notizie -->
                 <div class="row">
                     <article class="col-xs-12 col-sm-12 col-md-6 col-lg-6 news1">
                     	<h2><a href="#">News 1</a></h2>
@@ -83,6 +98,7 @@
         
         </div>
         
+        <!-- Piè di pagina -->
         <footer>
         
         	<div class="container-fluid">
@@ -107,6 +123,7 @@
         
         </footer>
         
+        <!-- jQuery, plugin Bootstrap e plugin realizzati da noi -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
@@ -114,5 +131,6 @@
 		<script src="js/main.js"></script>
         
     	<script src="js/menuSlider.js"></script>
+        
     </body>
 </html>

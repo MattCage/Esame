@@ -6,23 +6,35 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
-        <meta name="description" content="">
+        <title>Sakura - Sala Rock & Pop</title>
+        <meta name="description" content="Sala Rock & Pop">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
+        
+        <!-- Open Graph per syndacation con Facebook e SEO -->
+        <meta property="og:title" content="Sakura - Sala Rock & Pop" />
+        <meta property="og:description" content="Sala Rock & Pop" />
+        <meta property="og:locale" content="it_IT" />
+        <meta property="og:site_name" content="Sakura.it" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.sakura.it" />
+        <meta property="og:image" content="http://www.sakura.it/img/sakura.jpg" />
+        
+        <!-- Stili CSS Bootstrap & Web Fonts -->
         <link rel="stylesheet" href="../css/bootstrap.min.css">
         <link rel="stylesheet" href="../css/bootstrap-theme.min.css">
         <link href='http://fonts.googleapis.com/css?family=Overlock:400,700,900,400italic,700italic' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="../css/main.css">
-
+        
+        <!--- Modernizr, migliora la compatibilità con IE precedenti al 7, meglio richiamarlo prima del body -->
         <script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body style="background-image: url( '../img/sfondo_stanza_rock.jpg' );">
         <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+            <p class="browserupgrade">Stai usando un <strong>vecchio</strong> browser. Per favore <a href="http://browsehappy.com/">aggiorna il tuo browser</a> per migliorare la tua esperienza.</p>
         <![endif]-->
     	
+        <!-- Header del sito -->
 		<header id="head-sito">
         
         	<div class="container-fluid">
@@ -62,6 +74,7 @@
         
         </header>
         
+        <!-- Corpo principale della pagina -->
         <div>        
             <div id="content" class="container">
                 <div class="row">
@@ -75,7 +88,6 @@
                         <img src="../img/rock_00.jpg" class="img-responsive align-right">
                         <p>All'inizio del XX secolo la musica cambiò profondamente, e fu scossa fin dalle fondamenta. Non solo, ma cambiarono anche, grazie alle invenzioni relativamente recenti della radio e del fonografo, i modi e i tempi di ascolto della musica stessa, prima limitati a concerti in locali appositamente adibiti, come teatri, locali, club o case private. Questo portò a crearsi un pubblico potenziale più vasto e meno acculturato, che apprezzava strutture melodiche e armoniche più semplici, dall'altra mai come in questo periodo storico fu facile, per chi volesse suonare, procurarsi uno strumento e imparare a usarlo. A questo si deve aggiungere una seconda rivoluzione, l'invenzione dell'altoparlante e dell'amplificazione audio, che permise di far suonare assieme strumenti che non potrebbero farlo altrimenti. In ambito pop nacquero personaggi che diventano autentici fenomeni mediatici raggiungendo una popolarità senza precedenti. Fra questi si possono citare Frank Sinatra, Elvis Presley, James Brown,Jimi Hendrix, i Beatles, Bruce Springsteen per arrivare ai recenti Michael Jackson, Bon Jovi, Oasis, Madonna, Cher, Britney Spears, Adele.</p>
                         
-                        <img src="../img/rock_01.jpg" class="img-responsive align-left">
                         <p>Altro genere popolare sorto nel XX secolo è stato il rock, dizione abbreviata di "rock and roll" o "rock'n'roll".
 Il rock'n'roll nacque negli anni cinquanta come musica da ballare, derivata dal boogie-woogie, ballo afro-americano del dopo guerra. 
 Negli anni settanta, soprattutto in Inghilterra, si affacciarono personaggi come The Who, Pink Floyd, Led Zeppelin, Deep Purple, King Crimson, Emerson, Lake & Palmer, Yes, Genesis, Gentle Giant,Queen, e Soft Machine pronti a spaziare e a raggiungere nuove strutture musicalmente più complesse rispetto a quelle del rock primitivo per iniziare a dare vita a una rivoluzione. Alla fine degli anni settanta nacque un nuovo stile musicale che azzerò completamente il progressive, il punk, che vide il ritorno a sonorità hard e violente spinte a volte verso estremismi anti-musicali e legate a tematiche di contestazione politica.
@@ -96,12 +108,14 @@ I primi anni novanta videro l'esplosione del fenomeno Grunge che riportò per qu
             
         </div>
         
+        <!-- Assets per animazione di ciliegio e fiori -->
         <div id="ciliegio">
         	<img src="../img/ciliegio.png" class="img-responsive">
         </div>
         
         <img class="fiore" src="../img/fiore.png">
         
+        <!-- Piè di pagina -->
         <footer>
         
         	<div class="container-fluid">
@@ -126,6 +140,7 @@ I primi anni novanta videro l'esplosione del fenomeno Grunge che riportò per qu
         
         </footer>
         
+        <!-- jQuery, plugin Bootstrap e plugin realizzati da noi -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="../js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
