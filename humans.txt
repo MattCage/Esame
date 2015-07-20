@@ -1,15 +1,20 @@
 # humanstxt.org/
+
 # The humans responsible & technology colophon
+
+
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
 
-# THANKS
+	Bondrano Mattia -- Web Developer, SEO
+	Cerullo Fabio -- Web Designer, Markup Developer
+	Morichetti Marta -- Graphic Designer, Copywriter
 
-    <name>
+
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery, Modernizr
+
+	HTML5, CSS3
+	jQuery, Modernizr
