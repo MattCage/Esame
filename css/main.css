@@ -412,11 +412,12 @@ div#ciliegio {
 		
 	}
 	
-	#menu-container ul li {
+	#menu-container ul ul li {
 		
+		min-width: 200px;
 		margin-right: 20px;
 		position: relative;
-		float: left;
+		float: none;
 		
 	}
 	
@@ -437,9 +438,9 @@ div#ciliegio {
 		
 	}
 	
-	#menu-container ul ul li a {
+	 #menu-container ul ul li a, #menu-container ul ul li a:visited {
 	
-		margin-top: -50px;
+		line-height: 0;
 		padding-left: 45px;
 		
 	}
@@ -539,10 +540,19 @@ div#ciliegio {
 		
 	}
 	
-	#menu-container ul ul li a {
+	#menu-container ul ul li {
 		
-		line-height: 0;
-		padding-left: 40px;
+		min-width: 200px;
+		margin-right: 20px;
+		position: relative;
+		float: none;
+		
+	}
+	
+	 #menu-container ul ul li a, #menu-container ul ul li a:visited {
+		
+		line-height: 45px;
+		padding-left: 0;
 		
 	}
 	
